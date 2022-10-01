@@ -4,9 +4,9 @@
 
 {% block content %}
     <h1>Posts</h1>
-    
+     <span class="cards">
         {% for post in post_list %}
-        <div class="card-container">
+       
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">{{ post.title }}</h5>
@@ -16,7 +16,7 @@
                 </div>
             </div>
             <br />
-        </div>
+        
         {% endfor %}
-    
+        </span>
 {% endblock content %}
