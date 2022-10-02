@@ -1,2 +1,2 @@
 ### Heroku App Link
-https://dashboard.heroku.com/apps/sdgku-message-board
+https://mb-sdgku.herokuapp.com/posts/
